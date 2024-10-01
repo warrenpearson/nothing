@@ -6,4 +6,4 @@ docker load -i nothing.tar
 
 bzip2 nothing.tar
 
-docker run -p 8080:8080 91ceb007b6da
+docker run -d -p 8080:8080 91ceb007b6da
